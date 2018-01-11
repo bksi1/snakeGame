@@ -1,0 +1,30 @@
+html {
+	background: url(../images/background.jpg);
+}
+header {
+	text-align: center;
+	color: #1CCCCC;
+}
+div#content {
+	width: 1260px;
+	height: 600px;
+	background-color: black;
+	border: 15px lightGreen solid;
+	margin: 0 auto;
+	position: relative;
+}
+
+div.snakePart {
+	width: 8px;
+	height: 8px;
+	background-color: green;
+	border: 1px solid yellow;
+	position: absolute;
+	border-radius: 2px;
+}
+div.apple {
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	background: url(../images/apple.png);
+}
